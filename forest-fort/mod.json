@@ -3,13 +3,25 @@
 	"description" : "A town focused on forest creatures.",
 	"author" : "Agon",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.00",
+	"version" : "1.01",
 	"modType" : "Town",
+	"changelog" : {
+		"1.01" : [
+			"Added russian language (by SnowLeo)"
+		]
+	},
 	"polish" : {
 		"name" : "Fort leśny",
 		"description" : "Miasto skoncentrowane na leśnych stworzeniach.",
 		"translations" : [
 			"translation/forest-fort/polish.json"
+		]
+	},
+	"russian" : {
+		"name" : "Лесной форт",
+		"description" : "Город, основанный на лесных существах.",
+		"translations" : [
+			"translation/forest-fort/russian.json"
 		]
 	},
 	"conflicts" :
@@ -36,13 +48,13 @@
 		"config/forest-fort/creatures/Supreme.json",
 		"config/forest-fort/creatures/Silver.json",
 		"config/forest-fort/creatures/Unicorn.json",		
-        	"config/forest-fort/creatures/Wasp.json",
+		"config/forest-fort/creatures/Wasp.json",
 		"config/forest-fort/creatures/WaspGuard.json",
 		"config/forest-fort/creatures/Mountain.json",
 		"config/forest-fort/creatures/Ancient.json",
 		"config/forest-fort/creatures/Spriggan.json",
-        	"config/forest-fort/creatures/DwarfWarrior.json",
-        	"config/forest-fort/creatures/DwarfVeteran.json"
+		"config/forest-fort/creatures/DwarfWarrior.json",
+		"config/forest-fort/creatures/DwarfVeteran.json"
 
 	],
 	"heroClasses" :
@@ -74,6 +86,6 @@
 		"config/forest-fort/heroes/velina.json",
 		"config/forest-fort/heroes/vianne.json"
 	],
-    "objects" : [ "config/forest-fort/dwellings.json" ],
+	"objects" : [ "config/forest-fort/dwellings.json" ],
 	"spells" : [ "config/forest-fort/spells/moat.json" ]
 }
