@@ -1,36 +1,36 @@
 {
-	"evBrave":
+	"Hobbit":
 	{
 		"name" :
 		{
-			"plural" : "Battle hobbits",
-			"singular" : "Battle hobbit"
+			"plural" : "Hobbits",
+			"singular" : "Hobbit"
 		},
 		"advMapAmount" :
 		{
-			"max" : 30,
+			"max" : 50,
 			"min" : 20
 		},
 		"faction" : "forest-fort",
-		"aiValue" : 77,
-		"attack" : 5,
+		"aiValue" : 50,
+		"attack" : 4,
 		"cost" :
 		{
-			"gold" : 50
+			"gold" : 40
 		},
 		"damage" :
 		{
 			"max" : 3,
-			"min" : 2
+			"min" : 1
 		},
-		"defense" : 4,
-		"fightValue" : 82,
+		"defense" : 3,
+		"fightValue" : 57,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/brave.def",
-			"map" : "forest-fort/map/brave.def",
-			"iconSmall" : "forest-fort/iconsSmall/brave.bmp",
-			"iconLarge" : "forest-fort/iconsBig/brave.bmp",
+			"animation" : "forest-fort/battle/Hobbit.def",
+			"map" : "forest-fort/map/Hobbit.def",
+			"iconSmall" : "forest-fort/iconsSmall/Hobbit.bmp",
+			"iconLarge" : "forest-fort/iconsBig/Hobbit.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -40,7 +40,6 @@
 			},
 			"missile" :
 			{
-				"attackClimaxFrame" : 8,
 				"projectile": "PHALF.DEF",
 				"offset" :
 				{
@@ -51,16 +50,21 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
 			},
 			
 		},
 
 		"growth" : 15,
-		"hitPoints" : 5,
+		"hitPoints" : 4,
 		"horde" : 10,
               	"level" : 1,
 		"shots" : 24,
+		"upgrades":
+		[
+			"BattleHobbit"
+		],
 		"sound" :
 		{
 			"attack": "HALFATTK.wav",
@@ -70,7 +74,7 @@
 			"shoot": "HALFSHOT.wav",
 			"wince": "HALFWNCE.wav"
 		},
-		"speed" : 6,
+		"speed" : 5,
 		"abilities" :
 		{
 			"canshoot" :
@@ -82,10 +86,6 @@
 				"type" : "LUCK",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX"
-			},
-			"no melee penalty" :
-			{
-				"type" : "NO_MELEE_PENALTY"
 			}
 		},
 		"stackExperience" :
@@ -136,8 +136,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},

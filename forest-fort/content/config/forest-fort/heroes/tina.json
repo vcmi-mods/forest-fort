@@ -13,7 +13,6 @@
 				"name" : "Luck"
 			}
 		},
-
 		"images" :
 		{
 			"specialtySmall" : "forest-fort/heroes/tina/spec-small.png",
@@ -21,18 +20,16 @@
 			"large" : "forest-fort/heroes/tina/portrait-large.png",
 			"small" : "forest-fort/heroes/tina/portrait-small.png"
 		},
-
 		"spellbook" :
 		[
 			"dispel"
 		],
 		"army" :
 		[
-			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
-			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
-			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+			{ "creature" : "Hobbit", "min" : 10, "max" : 15 },
+			{ "creature" : "ForestWarrior", "min" : 6, "max" : 9 },
+			{ "creature" : "WaterNymph", "min" : 4, "max" : 6}
 		],
-
 		"skills" :
 		[
 			{

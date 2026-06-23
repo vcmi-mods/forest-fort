@@ -1,5 +1,5 @@
 {
-	"evShaman":
+	"Druidess":
 	{
 		"name" :
 		{
@@ -29,11 +29,11 @@
 		"horde" : 6,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/shaman.def",
+			"animation" : "forest-fort/battle/Druidess.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/shaman.def",
-			"iconSmall" : "forest-fort/iconsSmall/shaman.bmp",
-			"iconLarge" : "forest-fort/iconsBig/shaman.bmp",
+			"map" : "forest-fort/map/Druidess.def",
+			"iconSmall" : "forest-fort/iconsSmall/Druidess.bmp",
+			"iconLarge" : "forest-fort/iconsBig/Druidess.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
@@ -58,7 +58,7 @@
 		"shots" : 12,
 		"upgrades":
 		[
-			"evSupreme"
+			"Archdruidess"
 		],
 		"sound" :
 		{
@@ -154,7 +154,6 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1000, 
 					"subtype" : "spell.weakness", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},
@@ -163,7 +162,6 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1000, 
 					"subtype" : "spell.disruptingRay", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},

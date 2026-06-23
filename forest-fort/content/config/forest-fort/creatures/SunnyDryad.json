@@ -1,52 +1,44 @@
 {
-	"evWasp":
+	"SunnyDryad":
 	{
 		"name" :
 		{
-			"plural" : "Field dryads",
-			"singular" : "Field dryad"
+			"plural" : "Sunny dryads",
+			"singular" : "Sunny dryad"
 		},
 		"advMapAmount" :
 		{
-			"max" : 20,
-			"min" : 10
+			 "max" : 16,
+			 "min" : 10
 		},
 		"faction" : "forest-fort",
-		"aiValue" : 452,
-		"attack" : 10,
-		"cost" :
+		"aiValue" : 497,
+		"attack" : 12,
+                "cost" :
 		{
-			"gold" : 250
+			"gold" : 300
 		},
 		"damage" :
 		{
-			"max" : 10,
-			"min" : 7
+			 "max" : 10,
+			 "min" : 7
 		},
-		"defense" : 10,
-		"fightValue" : 466,
-                "horde" : 3,
+		"defense" : 13,
+		"fightValue" : 461,
+		"horde" : 3,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/wasp.def",
-			"map" : "forest-fort/map/wasp.def",
-			"iconSmall" : "forest-fort/iconsSmall/wasp.bmp",
-			"iconLarge" : "forest-fort/iconsBig/wasp.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.25,
-				"attack" : 1,
-				"idle" : 10
-			}
-		},
+			"animation" : "forest-fort/battle/SunnyDryad.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "forest-fort/map/SunnyDryad.def",
+			"iconSmall" : "forest-fort/iconsSmall/SunnyDryad.bmp",
+			"iconLarge" : "forest-fort/iconsBig/SunnyDryad.bmp",
+			"timeBetweenFidgets" : 1
+                },
+
 		"growth" : 5,
-		"hitPoints" : 30,
+		"hitPoints" : 35,
 		"level" : 4,
-		"upgrades":
-		[
-			"evWaspGuard"
-		],
 		"sound" :
 		{
 			"attack" : "forest-fort/DRYDATTK.wav",
@@ -54,8 +46,8 @@
 			"killed" : "forest-fort/DRYDKILL.wav",
 			"move" : "forest-fort/DRYDMOVE.wav",
 			"wince" : "forest-fort/DRYDWNCE.wav"
- 		},
-		"speed" : 8,
+		},
+		"speed" : 10,
 		"abilities" :
 		{
 			"canFly" : 
@@ -65,12 +57,12 @@
 			"castsAmount" :
 			{
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 5
 			},
 			"enchant" :
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 1
+				"val" : 2
 			},
 			"spellpower" :
 			{
@@ -81,6 +73,18 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.cure",
+				"val" : 1
+			},
+			"castsstoneSkin" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.stoneSkin",
+				"val" : 1
+			},
+			"castsshield" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.shield",
 				"val" : 1
 			}
 	    },
@@ -128,6 +132,6 @@
 				},
 				"values" : [ false, false, false, true, true, true, true, true, true, true ]
 			}
-		]
+		]	
 	}
 }

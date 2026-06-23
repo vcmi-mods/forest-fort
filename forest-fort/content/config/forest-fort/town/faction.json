@@ -24,13 +24,13 @@
 			],
 			"creatures" :
 			[
-				[ "evHalfling", "evBrave" ],
-				[ "evDwarfBonecrusher", "evDwarfBerserker" ],
-				[ "evDwarfWarrior", "evDwarfVeteran"],
-				[ "evWasp", "evWaspGuard"],
-				[ "evSilver", "evUnicorn" ],
-				[ "evShaman", "evSupreme" ],
-                [ "evMountain", "evAncient" ]
+				[ "Hobbit", "BattleHobbit" ],
+				[ "ForestWarrior", "ForestSoldier" ],
+				[ "WaterNymph", "BlueNymph"],
+				[ "FieldDryad", "SunnyDryad"],
+				[ "ScarletEagle", "WhiteEagle" ],
+				[ "Druidess", "Archdruidess" ],
+                [ "MountainGorynych", "MysticalGorynych" ]
 			],
 			"moatAbility":"forest-fortMoat",
 			"horde" : [ 1 , -1],

@@ -1,5 +1,5 @@
 {
-	"evDwarfVeteran":
+	"BlueNymph":
 	{
 		"name" :
 		{
@@ -27,11 +27,11 @@
 		"fightValue" : 345,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/veteran.def",
+			"animation" : "forest-fort/battle/BlueNymph.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/veteran.def",
-			"iconSmall" : "forest-fort/iconsSmall/veteran.bmp",
-			"iconLarge" : "forest-fort/iconsBig/veteran.bmp",
+			"map" : "forest-fort/map/BlueNymph.def",
+			"iconSmall" : "forest-fort/iconsSmall/BlueNymph.bmp",
+			"iconLarge" : "forest-fort/iconsBig/BlueNymph.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{

@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
-			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
-			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 }
+			{ "creature" : "ForestWarrior", "min" : 6, "max" : 9 },
+			{ "creature" : "ForestWarrior", "min" : 6, "max" : 9 },
+			{ "creature" : "ForestWarrior", "min" : 6, "max" : 9 }
 		],
 
 		"skills" :
@@ -45,7 +45,7 @@
 			}
 		],
 			"specialty" : {
-			"creature" : "evDwarfBonecrusher"
+			"creature" : "ForestWarrior"
 		}				
 	}
 }

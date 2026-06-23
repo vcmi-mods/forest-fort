@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6},
-			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6},
-			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+			{ "creature" : "WaterNymph", "min" : 4, "max" : 6},
+			{ "creature" : "WaterNymph", "min" : 4, "max" : 6},
+			{ "creature" : "WaterNymph", "min" : 4, "max" : 6}
 		],
 		"skills" :
 		[
@@ -44,7 +44,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "evDwarfWarrior"
+			"creature" : "WaterNymph"
 		}
 	}
 }

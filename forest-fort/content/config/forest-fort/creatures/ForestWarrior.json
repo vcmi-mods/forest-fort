@@ -1,5 +1,5 @@
 {
-	"evDwarfBonecrusher":
+	"ForestWarrior":
 	{
 		"name" :
 		{
@@ -29,11 +29,11 @@
 		"horde" : 6,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/bonecrusher.def",
+			"animation" : "forest-fort/battle/ForestWarrior.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/bonecrusher.def",
-			"iconSmall" : "forest-fort/iconsSmall/bonecrusher.bmp",
-			"iconLarge" : "forest-fort/iconsBig/bonecrusher.bmp",
+			"map" : "forest-fort/map/ForestWarrior.def",
+			"iconSmall" : "forest-fort/iconsSmall/ForestWarrior.bmp",
+			"iconLarge" : "forest-fort/iconsBig/ForestWarrior.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
@@ -58,7 +58,7 @@
               	"level" : 2,
 		"upgrades":
 		[
-			"evDwarfBerserker"
+			"ForestSoldier"
 		],
 		"sound" :
 		{

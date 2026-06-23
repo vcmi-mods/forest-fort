@@ -1,0 +1,14 @@
+{
+	"forest-fort:fobeldorn" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "runes"
+			}
+		]
+	}
+}

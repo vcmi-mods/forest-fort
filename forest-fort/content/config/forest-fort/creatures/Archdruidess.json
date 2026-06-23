@@ -1,5 +1,5 @@
 {
-	"evSupreme":
+	"Archdruidess":
 	{
 		"name" :
 		{
@@ -28,11 +28,11 @@
 		"fightValue" : 916,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/supreme.def",
+			"animation" : "forest-fort/battle/Archdruidess.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/supreme.def",
-			"iconSmall" : "forest-fort/iconsSmall/supreme.bmp",
-			"iconLarge" : "forest-fort/iconsBig/supreme.bmp",
+			"map" : "forest-fort/map/Archdruidess.def",
+			"iconSmall" : "forest-fort/iconsSmall/Archdruidess.bmp",
+			"iconLarge" : "forest-fort/iconsBig/Archdruidess.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
@@ -161,7 +161,6 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
 					"subtype" : "spell.weakness", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},
@@ -170,7 +169,6 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
 					"subtype" : "spell.disruptingRay", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},

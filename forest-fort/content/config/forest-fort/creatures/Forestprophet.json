@@ -1,5 +1,5 @@
 {
-	"spriggan" : {
+	"forestprophet" : {
 		"name" :
 		{
 			"plural" : "Forest prophets",
@@ -53,10 +53,10 @@
 			}
 		},
 		"graphics" : {
-			"animation" : "forest-fort/battle/Spriggan.def",
-			"map"        : "forest-fort/map/Spriggan.def",
-			"iconSmall" : "forest-fort/iconsSmall/Spriggan.bmp",
-			"iconLarge" : "forest-fort/iconsBig/Spriggan.bmp",
+			"animation" : "forest-fort/battle/forestprophet.def",
+			"map"        : "forest-fort/map/forestprophet.def",
+			"iconSmall" : "forest-fort/iconsSmall/forestprophet.bmp",
+			"iconLarge" : "forest-fort/iconsBig/forestprophet.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,

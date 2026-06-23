@@ -1,5 +1,5 @@
 {
-	"evDwarfBerserker":
+	"ForestSoldier":
 	{
 		"name" :
 		{
@@ -29,11 +29,11 @@
 		"horde" : 6,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/berserker.def",
+			"animation" : "forest-fort/battle/ForestSoldier.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/berserker.def",
-			"iconSmall" : "forest-fort/iconsSmall/berserker.bmp",
-			"iconLarge" : "forest-fort/iconsBig/berserker.bmp",
+			"map" : "forest-fort/map/ForestSoldier.def",
+			"iconSmall" : "forest-fort/iconsSmall/ForestSoldier.bmp",
+			"iconLarge" : "forest-fort/iconsBig/ForestSoldier.bmp",
 			"timeBetweenFidgets" : 1,
 
 			},

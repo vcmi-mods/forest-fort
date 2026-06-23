@@ -1,44 +1,47 @@
 {
-	"evUnicorn":
+	"ScarletEagle":
 	{
 		"name" :
 		{
-			"plural" : "White eagles",
-			"singular" : "White eagle"
+			"plural" : "Scarlet eagles",
+			"singular" : "Scarlet eagle"
 		},
 		"advMapAmount" :
 		{
-			 "max" : 12,
+			 "max" : 16,
 			 "min" : 8
 		},
 		"faction" : "forest-fort",
 		"aiValue" : 613,
-		"attack" : 14,
+		"attack" : 10,
 		"doubleWide" : true,
                 "cost" :
 		{
-			"gold" : 550
+			"gold" : 500
 		},
 		"damage" :
 		{
-			 "max" : 18,
-			 "min" : 15
+			 "max" : 15,
+			 "min" : 10
 		},
-		"defense" : 13,
+		"defense" : 12,
 		"fightValue" : 582,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/unicorn.def",
+			"animation" : "forest-fort/battle/ScarletEagle.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/unicorn.def",
-			"iconSmall" : "forest-fort/iconsSmall/unicorn.bmp",
-			"iconLarge" : "forest-fort/iconsBig/unicorn.bmp",
+			"map" : "forest-fort/map/ScarletEagle.def",
+			"iconSmall" : "forest-fort/iconsSmall/ScarletEagle.bmp",
+			"iconLarge" : "forest-fort/iconsBig/ScarletEagle.bmp",
 			"timeBetweenFidgets" : 1
         },
 		"growth" : 3,
-		"hitPoints" : 60,
+		"hitPoints" : 55,
 		"level" : 5,
-		
+		"upgrades":
+		[
+			"WhiteEagle"
+		],
 		"sound" :
 		{
 			"attack": "TBRDATTK.wav",
@@ -56,21 +59,7 @@
 			},
 			"slowImmunity" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "slow",
-				"addInfo" : 1
-			},
-			"fearless":
-			{
-				"type" : "FEARLESS", 	
-                        },
-			"positiveMorale" :
-			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
-			},
-			"firstStrike" : {
-				"type" : "FIRST_STRIKE"
+				"subtype" : "slow"
 			}
 		},
 		"stackExperience" :
@@ -115,8 +104,9 @@
 				{
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
 			}
 		]
 	}
 }
+

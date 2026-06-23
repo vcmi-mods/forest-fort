@@ -24,10 +24,6 @@
 			"translation/forest-fort/russian.json"
 		]
 	},
-	"conflicts" :
-	[
-		"evergreen-town"
-	],
 	"factions" :
 	[
 		"config/forest-fort/town/buildings.json",
@@ -40,21 +36,21 @@
 	],
 	"creatures" :
 	[
-		"config/forest-fort/creatures/Halfling.json",
-		"config/forest-fort/creatures/Brave.json",
-		"config/forest-fort/creatures/DwarfBonecrusher.json",
-		"config/forest-fort/creatures/DwarfBerserker.json",
-		"config/forest-fort/creatures/Shaman.json",
-		"config/forest-fort/creatures/Supreme.json",
-		"config/forest-fort/creatures/Silver.json",
-		"config/forest-fort/creatures/Unicorn.json",		
-		"config/forest-fort/creatures/Wasp.json",
-		"config/forest-fort/creatures/WaspGuard.json",
-		"config/forest-fort/creatures/Mountain.json",
-		"config/forest-fort/creatures/Ancient.json",
-		"config/forest-fort/creatures/Spriggan.json",
-		"config/forest-fort/creatures/DwarfWarrior.json",
-		"config/forest-fort/creatures/DwarfVeteran.json"
+		"config/forest-fort/creatures/Hobbit.json",
+		"config/forest-fort/creatures/BattleHobbit.json",
+		"config/forest-fort/creatures/ForestWarrior.json",
+		"config/forest-fort/creatures/ForestSoldier.json",
+		"config/forest-fort/creatures/WaterNymph.json",
+		"config/forest-fort/creatures/BlueNymph.json",
+		"config/forest-fort/creatures/FieldDryad.json",
+		"config/forest-fort/creatures/SunnyDryad.json",		
+		"config/forest-fort/creatures/ScarletEagle.json",
+		"config/forest-fort/creatures/WhiteEagle.json",
+		"config/forest-fort/creatures/Druidess.json",
+		"config/forest-fort/creatures/Archdruidess.json",
+		"config/forest-fort/creatures/MountainGorynych.json",
+		"config/forest-fort/creatures/MysticalGorynych.json",
+		"config/forest-fort/creatures/Forestprophet.json"
 
 	],
 	"heroClasses" :

@@ -1,5 +1,5 @@
 {
-	"evAncient":
+	"MysticalGorynych":
 	{
 		"name" :
 		{
@@ -28,11 +28,11 @@
 		"fightValue" : 4635,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/ancient.def",
+			"animation" : "forest-fort/battle/MysticalGorynych.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/ancient.def",
-			"iconSmall" : "forest-fort/iconsSmall/ancient.bmp",
-			"iconLarge" : "forest-fort/iconsBig/ancient.bmp",
+			"map" : "forest-fort/map/MysticalGorynych.def",
+			"iconSmall" : "forest-fort/iconsSmall/MysticalGorynych.bmp",
+			"iconLarge" : "forest-fort/iconsBig/MysticalGorynych.bmp",
 			"timeBetweenFidgets" : 1
 		},
 		"doubleWide" : true,

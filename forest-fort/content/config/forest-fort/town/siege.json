@@ -5,7 +5,7 @@
 		{
 			"siege" :
 			{
-				"shooter" : "evHalfling",
+				"shooter" : "Hobbit",
 				"imagePrefix" : "forest-fort/siege/SGPR",
 				"towerIconSmall" : "forest-fort/icons/towerSmall",
 				"towerIconLarge" : "forest-fort/icons/towerLarge",

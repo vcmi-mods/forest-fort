@@ -1,79 +1,139 @@
 {
-	"core:creatureGeneratorCommon" : {
-		"types" : {
-			"evShack" : {
-				"name" : "Slingers park",
-				"creatures" : [[ "evHalfling" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-1.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "BABB" ]
-					}
-				}
-			},
-			"evCottage" : {
-				"name" : "Warriors' hut",
-				"creatures" : [[ "evDwarfBonecrusher" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "BBB", "ABB" ]
-					}
-				}
-			},
-			"evBelvedere" : {
-				"name" : "Nymph's well",
-				"creatures" : [[ "evDwarfWarrior" ]],
-				"templates" : {
-					"default" : {	
-						"animation" : "forest-fort/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
-					}
-				}
-			},
-			"evHive" : {
-				"name" : "Dryad hollow",
-				"creatures" : [[ "evWasp" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
-					}
-				}
-			},
-			"evAncientAltar" : {
-				"name" : "Eagle's altar",
-				"creatures" : [[ "evSilver" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
-					}
-				}
-			},
-			"evRunicCircle" : {
-				"name" : "Runic circle",
-				"creatures" : [[ "evShaman" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
-					}
-				}
-			},
-			"evMountainLair" : {
-				"name" : "Mountain lair",
-				"creatures" : [[ "evMountain" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "forest-fort/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVV", "VVV", "BAB" ]
-					}
-				}
-			}
-		}		
-	}
+    "core:creatureGeneratorCommon": {
+        "types": {
+            "SlingersPark": {
+                "name": "Slingers park",
+                "creatures": [
+                    [
+                        "Hobbit"
+                    ]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-1.def",
+                        "mask": [
+                            "VV",
+                            "BA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW1.def"
+            },
+            "WarriorsHut": {
+                "name": "Warriors' hut",
+                "creatures": [
+                    [
+                        "ForestWarrior"
+                    ]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-2.def",
+                        "mask": [
+                            "VVV",
+                            "VBA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW2.def"
+            },
+            "NymphsWell": {
+                "name": "Nymph's well",
+                "creatures": [
+                    [
+                        "WaterNymph"
+                    ]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-3.def",
+                        "mask": [
+                            "VVV",
+                            "VVV",
+                            "VBA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW3.def"
+            },
+            "DryadHollow": {
+                "name": "Dryad hollow",
+                "creatures": [
+                    [
+                        "FieldDryad"
+                    ]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-4.def",
+                        "mask": [
+                            "VVV",
+                            "VBB",
+                            "VBA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW4.def"
+            },
+            "EaglesAltar": {
+                "name": "Eagle's altar",
+                "creatures": [
+                    [
+                        "ScarletEagle"
+                    ]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-5.def",
+                        "mask": [
+                            "VVV",
+                            "VBB",
+                            "VBA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW5.def"
+            },
+            "RunicCircle": {
+                "name": "Runic circle",
+                "creatures": [
+                    [
+                        "Druidess"
+                    ]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-6.def",
+                        "mask": [
+                            "BB",
+                            "BA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW6.def"
+            },
+            "MountainLair": {
+                "name": "Mountain lair",
+                "creatures": [
+                    [
+                        "MountainGorynych"
+                    ]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "forest-fort/map/dwellings/dwelling-7.def",
+                        "mask": [
+                            "VVV",
+                            "VBB",
+                            "VBA"
+                        ]
+                    }
+                },
+                "kingdomOverviewImage": "forest-fort/map/dwellings/flagports/forest-fortDW7.def"
+            }
+        }
+    }
 }

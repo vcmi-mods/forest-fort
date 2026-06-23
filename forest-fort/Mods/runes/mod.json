@@ -1,0 +1,22 @@
+{
+	"name" : "Runes connector",
+	"description" : "Connects Forest fort with Runes",
+	"author" : "Agon",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.bulwark"
+	],
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"heroes" : [
+		"config/heroes/beldorn.json"
+		]
+}

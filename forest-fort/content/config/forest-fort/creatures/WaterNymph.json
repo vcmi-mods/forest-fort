@@ -1,5 +1,5 @@
 {
-	"evDwarfWarrior":
+	"WaterNymph":
 	{
 		"name" :
 		{
@@ -27,11 +27,11 @@
 		"fightValue" : 328,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/warrior.def",
+			"animation" : "forest-fort/battle/WaterNymph.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/warrior.def",
-			"iconSmall" : "forest-fort/iconsSmall/warrior.bmp",
-			"iconLarge" : "forest-fort/iconsBig/warrior.bmp",
+			"map" : "forest-fort/map/WaterNymph.def",
+			"iconSmall" : "forest-fort/iconsSmall/WaterNymph.bmp",
+			"iconLarge" : "forest-fort/iconsBig/WaterNymph.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" :
 			{
@@ -56,7 +56,7 @@
 		"level" : 3,
 		"upgrades":
 		[
-			"evDwarfVeteran"
+			"BlueNymph"
 		],
 		"sound" :
 		{

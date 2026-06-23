@@ -1,5 +1,5 @@
 {
-	"evMountain":
+	"MountainGorynych":
 	{
 		"name" :
 		{
@@ -28,11 +28,11 @@
 		"fightValue" : 4435,
 		"graphics" :
 		{
-			"animation" : "forest-fort/battle/mountain.DEF",
+			"animation" : "forest-fort/battle/MountainGorynych.DEF",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
-			"map" : "forest-fort/map/mountain.def",
-			"iconSmall" : "forest-fort/iconsSmall/mountain.bmp",
-			"iconLarge" : "forest-fort/iconsBig/mountain.bmp",
+			"map" : "forest-fort/map/MountainGorynych.def",
+			"iconSmall" : "forest-fort/iconsSmall/MountainGorynych.bmp",
+			"iconLarge" : "forest-fort/iconsBig/MountainGorynych.bmp",
 			"timeBetweenFidgets" : 1
 		},
 		"doubleWide" : true,
@@ -41,7 +41,7 @@
 		"level" : 7,
 		"upgrades":
 		[
-			"evAncient"
+			"MysticalGorynych"
 		],
 		"sound" :
 		{

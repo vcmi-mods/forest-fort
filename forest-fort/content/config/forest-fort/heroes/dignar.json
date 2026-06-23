@@ -29,9 +29,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
-			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
-			{ "creature" : "evHalfling", "min" : 10, "max" : 15 }
+			{ "creature" : "Hobbit", "min" : 10, "max" : 15 },
+			{ "creature" : "Hobbit", "min" : 10, "max" : 15 },
+			{ "creature" : "Hobbit", "min" : 10, "max" : 15 }
 		],
 		"skills" :
 		[
@@ -45,7 +45,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "evHalfling"
+			"creature" : "Hobbit"
 		}			
 	}
 }
