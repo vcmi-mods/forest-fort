@@ -10,6 +10,13 @@
 			"Added russian language (by SnowLeo)"
 		]
 	},
+	"french" : {
+		"name" : "Fort Forestier",
+		"description" : "Une ville axée sur les créatures de la forêt.",
+		"translations" : [
+			"translation/forest-fort/french.json"
+		]
+	},
 	"polish" : {
 		"name" : "Fort leśny",
 		"description" : "Miasto skoncentrowane na leśnych stworzeniach.",

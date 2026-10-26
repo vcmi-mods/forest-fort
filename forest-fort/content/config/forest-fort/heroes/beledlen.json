@@ -10,8 +10,8 @@
 			"specialty" : 
 			{
 				"description" : "At the beginning of combat, all units commanded by the hero gain bloodlust for 10 turns.",
-				"tooltip" : "Combat Bonus: Blood frenzy",
-				"name" : "Blood frenzy"
+				"tooltip" : "Combat Bonus: Bloodlust",
+				"name" : "Bloodlust"
 			}
 		},
 		"images" :
